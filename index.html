@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjul Singh</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="super-container">
+            <div class="container">
+                <div class="image-box">
+                    <img src="anjul.png" alt="">
+                </div>
+                <div class="name-box">
+                    Anjul Singh
+                </div>
+                <div class="profession-box">
+                    Student at MMMUT GKP
+                </div>
+                <div class="btn-box">
+                    <div class="sharebtn"><button  onclick="openmodal()">Share My Profile</button></div>
+                    <div ><button onclick="followed()"  class="followbtn">Follow Me</button></div>
+                </div>
+            </div>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </div>
+    </div>
+
+    <div class="popup">
+        <div class="popup-subcontainer">
+            <div class="top-box">
+                <div class="popup-heading">
+                    Share My Profile
+                </div>
+                <div class="popup-cross">
+                    <button onclick="closemodal()"><img src="icon/close-line.png" alt=""></button>
+                </div>
+            </div>
+            <div class="line">.</div>
+
+            <div class="middle-box">
+                share this via
+            </div>
+
+            <div class="bottom-box">
+                <a href="">
+                    <div class="icon-circle" id="facebook">
+                        <img src="icon/facebook-circle-fill.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="icon-circle" id="twitter">
+                        <img src="icon/twitter-x-fill.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="icon-circle" id="instagram">
+                        <img src="icon/instagram-line.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="icon-circle" id="whatsapp">
+                        <img src="icon/whatsapp-line.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="icon-circle" id="telegram">
+                        <img src="icon/telegram-fill.png" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlays"  onclick="closemodal()"></div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
